@@ -1,0 +1,31 @@
+{
+  "name": "joshua_portfolio",
+  "version": "1.0.0",
+  "description": "Personal Website for Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korsing/03_Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "Joshua Yoon Seok Jung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/korsing/03_Portfolio/issues"
+  },
+  "homepage": "https://github.com/korsing/03_Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
+}
