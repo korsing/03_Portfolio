@@ -4,16 +4,16 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('index', { greeting: 'Hello World!' });
+    res.render('index', { greeting: 'Hello World0!' });
 });
 router.get('/index', function(req, res, next) {
-    res.render('index', { greeting: 'Hello World!' });
+    res.render('index', { greeting: 'Hello World1!' });
 });
 router.get('/index.html', function(req, res, next) {
-    res.render('index', { greeting: 'Hello World!' });
+    res.render('index', { greeting: 'Hello World2!' });
 });
 router.get('/hello', function(req, res, next) {
-    res.render('index', { greeting: 'Hello World!' });
+    res.render('index', { greeting: 'Hello World3!' });
 });
 
 

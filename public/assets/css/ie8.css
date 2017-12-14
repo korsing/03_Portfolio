@@ -1,161 +1,108 @@
 /*
-	Alpha by Pixelarity
+	Reflex by Pixelarity
 	pixelarity.com @pixelarity
 	License: pixelarity.com/license
 */
-
-/* Basic */
-
-	pre, code {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-/* Form */
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-		line-height: 3em;
-	}
-
-	input[type="checkbox"],
-	input[type="radio"] {
-		opacity: 1;
-		z-index: auto;
-	}
-
-		input[type="checkbox"] + label:before,
-		input[type="radio"] + label:before {
-			display: none;
-		}
 
 /* Button */
 
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
+	button,
 	.button {
 		position: relative;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		input[type="button"].alt,
-		.button.alt {
-			border: solid 2px #e5e5e5;
+/* Icons */
+
+	ul.icons li .icon:before {
+		border: 0;
+	}
+
+	ul.icons.major li {
+		padding: 0.75em;
+	}
+
+		ul.icons.major li .icon:before {
+			font-size: 4em;
+			width: 1.5em;
+			height: 1.5em;
+			line-height: 1.5em;
 		}
 
-/* Box */
+/* Wrapper */
 
-	.box {
+	.wrapper.featured > .inner > .image {
 		position: relative;
 		-ms-behavior: url("assets/js/ie/PIE.htc");
 	}
 
-		.box .image.featured {
-			margin: 2em 0;
-			width: 100%;
-		}
-
-/* Icon */
-
-	.icon.major {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-/* Image */
-
-	.image {
-		position: relative;
-		-ms-behavior: url("assets/js/ie/PIE.htc");
-	}
-
-		.image img {
+		.wrapper.featured > .inner > .image img {
 			position: relative;
 			-ms-behavior: url("assets/js/ie/PIE.htc");
 		}
 
 /* Header */
 
-	#header nav > ul > li a {
-		color: #fff;
-		display: inline-block;
-		text-decoration: none;
-		border: 0;
+	#header ul li a[href="#menu"] {
+		background-color: #565656;
+		-ms-behavior: url("assets/js/ie/PIE.htc");
+		text-indent: 0;
+		color: #ffffff;
+		text-align: center;
+		padding-left: 0 !important;
+		width: 9.6875em;
+		border-radius: 4.6875em;
 	}
 
-		#header nav > ul > li a.icon:before {
-			color: #fff;
-			margin-right: 0.5em;
+		#header ul li a[href="#menu"]:before {
+			display: none;
 		}
 
-	#header.alt {
-		color: #fff;
+/* Footer */
+
+	#footer .copyright:before {
+		display: none;
 	}
 
-		#header.alt nav > ul > li a:not(.button).icon:before {
-			color: rgba(255, 255, 255, 0.75);
-		}
+/* Menu */
 
-		#header.alt nav > ul > li.active a:not(.button) {
-			background-color: rgba(255, 255, 255, 0.2);
-		}
-
-	.dropotron {
-		border: solid 1px #e5e5e5;
+	#menu {
+		background-color: #565656;
+		color: #ffffff;
 	}
 
-		.dropotron.level-0 {
-			margin-top: 0;
+		#menu:before {
+			display: none;
 		}
 
-			.dropotron.level-0:before {
+		#menu > .close {
+			width: auto;
+			text-indent: 0;
+		}
+
+			#menu > .close:before {
 				display: none;
 			}
 
-/* Banner */
-
-	#banner {
-		background-attachment: scroll;
-		background-image: url("../../images/banner.jpg");
-		background-position: auto;
-		background-repeat: no-repeat;
-		background-size: cover;
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-	}
-
-		#banner input[type="submit"],
-		#banner input[type="reset"],
-		#banner input[type="button"],
-		#banner .button {
-			border: solid 2px #fff;
+		#menu input[type="submit"],
+		#menu input[type="reset"],
+		#menu input[type="button"],
+		#menu button,
+		#menu .button {
+			color: inherit !important;
+			border-color: inherit !important;
+			background-color: transparent !important;
 		}
 
-/* Main */
-
-	#main {
-		position: relative;
-		z-index: 1;
-	}
-
-/* CTA */
-
-	#cta input[type="text"],
-	#cta input[type="password"],
-	#cta input[type="email"],
-	#cta select,
-	#cta textarea {
-		background: #82a8e0;
-		border: solid 2px #fff;
-	}
-
-	#cta .formerize-placeholder {
-		color: #fff !important;
-	}
+			#menu input[type="submit"].special,
+			#menu input[type="reset"].special,
+			#menu input[type="button"].special,
+			#menu button.special,
+			#menu .button.special {
+				color: inherit !important;
+				border-color: inherit !important;
+				background-color: transparent !important;
+			}

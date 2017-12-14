@@ -8,7 +8,7 @@ const cookieParser = require('cookie-parser');
 
 
 // Routing
-const index = require('./routes/index');
+const index = require('./routes/hello');
 const bye = require('./routes/bye');
 
 // instantiate express
