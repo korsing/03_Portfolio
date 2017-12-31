@@ -32,7 +32,7 @@ app.use(express.static(path.join(__dirname, 'public'))); //the folder "public" s
 
 
 // website routing(requests)
-app.use('/', index);   // route to '/'
+app.use('/', index1);   // route to '/'
 app.use('/bye', bye);  // route  to '/bye'
 
 
